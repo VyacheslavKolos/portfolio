@@ -1,0 +1,41 @@
+.container{
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: #828282;
+    font-family: Gill Sans, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header a[class='active'] {
+    font-family: Gill Sans, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    .header{
+        display: none;
+    }
+    /*.burger{*/
+    /*    display: block;*/
+    /*}*/
+
+}

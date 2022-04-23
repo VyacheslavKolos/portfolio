@@ -1,0 +1,81 @@
+.personInfo {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 6px;
+}
+
+.name p {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 6px;
+    margin-left: 390px;
+    margin-top: 55px;
+}
+
+.info p {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin: 0;
+    padding: 0;
+}
+
+.photo{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    background: url("../../images/star wars.jpg") no-repeat center/cover;
+}
+
+@media screen and (max-width: 400px) {
+    .info {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .personInfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name p {
+        margin: -4px;
+        padding: 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 59px;
+        color: #070707;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 0;
+    }
+
+    .photo{
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+        background: url("../../images/star wars.jpg") no-repeat center/cover;
+    }
+}

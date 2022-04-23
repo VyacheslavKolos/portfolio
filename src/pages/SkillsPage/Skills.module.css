@@ -1,0 +1,34 @@
+.SkillsBigText{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+    color: #070707;
+    font-family: Gill Sans, sans-serif;
+}
+
+.SkillsText{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+
+.techIcons{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .techIcons{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        column-gap: 6px;
+    }
+}
+
+

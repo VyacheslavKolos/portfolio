@@ -1,0 +1,65 @@
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 440px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bigText{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+    color: #070707;
+    font-family: Gill Sans, sans-serif;
+}
+
+.bigText p{
+    margin: 10px;
+}
+
+.aboutMeInfo p{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+}
+
+.okten img{
+width: 48px;
+}
+
+.okten p{
+    margin-bottom: 0;
+}
+
+.oktenInfo{
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.oktenInfo p{
+    margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        text-align: center;
+        margin: 30px auto 0 0;
+        background-color: #F6F6F6;
+
+    }
+
+}
