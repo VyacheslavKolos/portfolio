@@ -7,6 +7,12 @@
     font-family: Gill Sans, sans-serif;
 }
 
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
 .movieApp{
     width: 90%;
     margin: 0 auto;
@@ -15,6 +21,16 @@
 .movieApp img{
     width: 100%;
     margin: 0 auto;
+}
+
+.netShop{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.netShop img{
+    width: 100%;
+    margin: 0 auto
 }
 
 @media screen and (max-width: 400px) {

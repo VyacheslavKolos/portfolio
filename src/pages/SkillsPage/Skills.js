@@ -18,7 +18,8 @@ const Skills = () => {
                 <img src={html5} alt="html5"/>
                 <img src={js} alt="html5"/>
                 <img src={react} alt="html5"/>
-                <img src={node} alt="html5"/>
+                {// <img src={node} alt="html5"/>
+                     }
 
             </div>
         </div>
