@@ -33,6 +33,22 @@
     margin: 0 auto
 }
 
+.delimiter{
+    width: 1920px;
+    height: 1px;
+    background-color: #070707;
+}
+
+.eventsManager{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.eventsManager img{
+    width: 100%;
+    margin: 0 auto
+}
+
 @media screen and (max-width: 400px) {
 
     .portfolio{
