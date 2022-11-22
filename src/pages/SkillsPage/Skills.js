@@ -16,10 +16,9 @@ const Skills = () => {
             <div className={css.techIcons}>
                 <img src={css3} alt="css3"/>
                 <img src={html5} alt="html5"/>
-                <img src={js} alt="html5"/>
-                <img src={react} alt="html5"/>
-                {// <img src={node} alt="html5"/>
-                     }
+                <img src={js} alt="js"/>
+                <img src={react} alt="react"/>
+                 <img src={node} alt="node"/>
 
             </div>
         </div>

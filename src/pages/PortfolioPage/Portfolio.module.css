@@ -10,7 +10,7 @@
 .portfolio{
     display: flex;
     flex-direction: column;
-    row-gap: 70px;
+    row-gap: 50px;
 }
 
 .movieApp{
@@ -23,18 +23,8 @@
     margin: 0 auto;
 }
 
-.netShop{
-    width: 90%;
-    margin: 0 auto;
-}
-
-.netShop img{
-    width: 100%;
-    margin: 0 auto
-}
 
 .delimiter{
-    width: 1920px;
     height: 1px;
     background-color: #070707;
 }

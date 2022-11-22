@@ -3,8 +3,8 @@ import {Box} from '@mui/material';
 
 import css from './Portfolio.module.css';
 import movieApp from '../../images/movieApp.png';
-import netShop from '../../images/net-shop.png';
 import events from '../../images/events.png'
+import nltuSchedule from '../../images/nltu-schedule.png'
 
 const Portfolio = () => {
     return (
@@ -17,7 +17,15 @@ const Portfolio = () => {
                 <img src={events} alt="events" />
             </div>
 
+            <Box className={css.delimiter}></Box>
+
+            <Box width={'90%'} margin={'0 auto'}>
+                <h2>NLTU Schedule - an application designed to make it easy and quick to find lessons</h2>
+                <img width={'100%'} src={nltuSchedule} alt="nltuSchedule" />
+            </Box>
+
             <div className={css.delimiter}></div>
+
 
             <div className={css.movieApp}>
 
@@ -28,10 +36,6 @@ const Portfolio = () => {
 
             <div className={css.delimiter}></div>
 
-            <div className={css.netShop}>
-                <h2> Internet-shop using HTML, CSS, adaptive design</h2>
-                <img src={netShop} alt="net shop"/>
-            </div>
 
 
 
